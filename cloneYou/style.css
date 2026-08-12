@@ -1,0 +1,62 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo-icone {
+    color: rgb(1, 255, 200);
+    font-size: 25px;
+}
+
+.logotipo-pais {
+    font-size: 10px;
+    color: rgb(67, 67, 67);
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-inicio {
+    display: flex;
+    gap: 16px;
+}
+
+.search {
+    display: flex;
+}
+
+.search-input {
+    border: 1px solid lightgray;
+    outline: none;
+    height: 32px;
+    width: 300px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.search-button {
+    width: 50px;
+    height: 32px;
+    border-radius: 0px 16px 16px 0px;
+    border: 1px solid lightgray;
+}
+
+.microphone {
+    height: 32px;
+    width: 32px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.cabecalho-meio {
+    display: flex;
+    gap: 10px;
+}

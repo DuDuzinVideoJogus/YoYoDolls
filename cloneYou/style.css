@@ -1,5 +1,5 @@
 * {
-    font-family: monospace;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,14 +10,9 @@
     justify-content: space-between;
 }
 
-.logotipo-icone {
-    color: rgb(1, 255, 200);
-    font-size: 25px;
-}
-
-.logotipo-pais {
-    font-size: 10px;
-    color: rgb(67, 67, 67);
+.cabecalho-inicio {
+    display: flex;
+    gap: 16px;
 }
 
 .logotipo {
@@ -25,9 +20,72 @@
     align-items: center;
 }
 
-.cabecalho-inicio {
+.logotipo-pais {
+    font-size: 10px;
+    color: rgb(67, 67, 67);
+}
+
+.logotipo-icone {
+    color: red;
+    font-size: 25px;
+}
+
+.logotipo-nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logotipo-nome:hover {
+    color: rgb(219, 13, 71);
+    font-size: 100000px;
+    transition: all 50s ease-in-out;
+}
+
+.botao-video:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.botao-sino:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.avatar-usuario:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.botao-video {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 67, 67);
+    width: 30px;
+    height: 30px;
+}
+
+.botao-sino {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 67, 67);
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-usuario {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 67, 67);
+    width: 30px;
+    height: 30px;
+}
+
+.cabecalho-centro {
     display: flex;
-    gap: 16px;
+    gap: 10px;
 }
 
 .search {
@@ -35,7 +93,7 @@
 }
 
 .search-input {
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     outline: none;
     height: 32px;
     width: 300px;
@@ -45,8 +103,8 @@
 .search-button {
     width: 50px;
     height: 32px;
+    border: 1px solid gray;
     border-radius: 0px 16px 16px 0px;
-    border: 1px solid lightgray;
 }
 
 .microphone {
@@ -56,7 +114,8 @@
     border-radius: 50%;
 }
 
-.cabecalho-meio {
+.cabecalho-rodape {
+    background-color: white;
     display: flex;
-    gap: 10px;
+    gap: 18px;
 }
